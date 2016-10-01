@@ -16,7 +16,7 @@ public class FiguresHere {
 
         System.out.println("Rectangles = " + Rectangle.count + " Площадь: " + (Rectangle.a * Rectangle.b));
         System.out.println("Circles = " + Circle.count + " Площадь: " + (Math.pow(Circle.r, 2) * 3.14));
-        System.out.println("Triangles = " + Triangle.count + " Площадь: " + ((Triangle.f + Triangle.g + Triangle.h) / 2));
+        System.out.println("Triangles = " + Triangle.count + " Площадь: " + Math.sqrt((Triangle.f + Triangle.g + Triangle.h) / 2));
     }
 
 }
